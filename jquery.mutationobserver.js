@@ -7,7 +7,7 @@
  *	http://en.wikipedia.org/wiki/GNU_General_Public_License
  */
 (function($) {
-    var jQueryMutationFns = ['after', 'append', 'before', 'empty', 'html', 'prepend', 'remove']
+    var jQueryMutationFns = ['after', 'append', 'before', 'empty', 'html', 'text', 'prepend', 'remove']
     var mutationObservers = []
     var __mutatedElements = []
     var __mutationTimeout
